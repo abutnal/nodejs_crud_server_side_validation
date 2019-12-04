@@ -1,0 +1,40 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.add_err_class{
+	color:#E03D3D;
+	/*margin-top:-10px;*/
+}
+.form-label{
+	/*margin-left: 20px !important;*/
+	/*margin-top: -10px;*/
+	z-index: 9999 !important;
+	margin-bottom:-10px; 
+}
+.remove_err_class{
+	color:#333;
+	/*margin-top:-10px;*/
+}
+
+.formRow{
+	margin-bottom: 10px;
+}
+.errorContainer{
+	background: #DDAAAA;
+	width:100%;
+	padding: 2px;
+	display: none; 
+	margin-bottom: 15px;
+	border:1px solid #999;
+}
+
+.error{
+	color:#E03D3D;
+}
+
+h3{
+	color:#ddd;
+}
+

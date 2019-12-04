@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{{title}}</title>
+	<link rel="stylesheet" href="../stylesheets/style.css">
+	<link rel="stylesheet" href="../stylesheets/bootstrap.min.css">
+	<script type="text/javascript" src="../javascripts/jquery.js"></script>
+	<script type="text/javascript" src="../javascripts/bootstrap.min.js"></script>
+
+	<meta charset="utf-8">
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<marquee direction="left"><h3 class="content-justify-center">AB UTNAL, 8722222996</h3></marquee>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6 offset-3">
+				<br>
+				<div id="status_msg"></div>
+				<div class="card border-light bg-light">
+					<div class="card-body">
+						
+						<form action="http://localhost:3000/create_or_update_User" method="post" id="saveForm">
+							<div class="formRow"><label class="form-label" for="" id="label-name">Name</label>
+								<input type="hidden" autocomplete="off" class="form-control" name="user_id" id="user_id">
+								<input type="text" autocomplete="off" class="form-control" name="name" id="name">
+							</div>
+
+
+							<div class="formRow">
+								<label class="form-label" for="" id="label-phone"id="label-phone">Phone</label>
+								<input type="text" autocomplete="off" class="form-control" name="phone" id="phone">
+							</div>
+
+
+							<div class="formRow">
+								<label class="form-label" for="" id="label-email"id="label-email">Email</label>
+								<input type="text" autocomplete="off" class="form-control" name="email" id="email">
+							</div>
+
+							<div class="formRow">
+								<label class="form-label" for="" id="label-password" id="label-password">Password</label>
+								<input type="password" autocomplete="off" class="form-control" name="password" id="password">
+							</div>
+							<div class="formRow"><button class="btn btn-success float-right btn-register">Register</button>		</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<br>
+				<div id="dataTable" class=""></div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../javascripts/client.js"></script>
+</body>
+</html>
